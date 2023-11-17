@@ -1,0 +1,220 @@
+/* navbar */
+@media (max-width: 600px) {
+    .header {padding: 1.3rem 5%;}
+  }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {padding: 1.3rem 3%;}
+}
+   
+/* slideshow */
+
+@media (max-width: 992px) {
+    .slider {padding-top: 6rem;
+            padding-left: 2.5%;
+            padding-right: 2.5%;}
+    
+}
+
+
+/* main-content */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    .content-box{padding: 2rem 2%;}
+    .box1 .box2 h1{font-size: 1rem;}
+    .box1 p{font-size: 1.15rem;
+    }
+
+    .box2{
+        padding-top: 2rem;
+    }
+    .box2 ul li{
+        font-size: 1rem;
+        display: list-item;
+        list-style: none;
+        padding-bottom: 0.1rem;
+    }
+
+    .box2 a{
+        font-size: 1.15rem;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 767px) {
+    .content-box{padding: 2rem 2%;}
+    .box1 .box2 h1{font-size: 1rem;}
+    .box1 p{font-size: 1.15rem;
+    }
+
+    .box2{
+        padding-top: 2rem;
+    }
+    .box2 ul li{
+        font-size: 1rem;
+        display: list-item;
+        list-style: none;
+        padding-bottom: 0.1rem;
+    }
+
+    .box2 a{
+        font-size: 1.15rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .img-container {
+        padding-top: 5rem;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+  }
+  @media (max-width: 600px) {
+    .img-container img{
+        width: 100%;
+        height: auto;
+        padding: 0.2rem 0;
+  }
+}
+
+  @media (max-width: 600px) {
+    .pageheading{
+        font-family: BourtonLineBold;
+        color: white;
+        font-size: 1.5rem; 
+  }   
+}
+
+
+/* Tablet Devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content-box{padding: 2rem 2%;}
+    .box1 .box2 h1{font-size: 1rem;}
+    .box1 p{font-size: 1.15rem;
+    }
+
+    .box2{
+        padding-top: 2rem;
+    }
+    .box2 ul li{
+        font-size: 1rem;
+        display: list-item;
+        list-style: none;
+        padding-bottom: 0.1rem;
+    }
+
+    .box2 a{
+        font-size: 1.15rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .img-container {
+        padding-top: 5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .img-container img{
+        width: 100%;
+        height: auto;
+        padding: 0.5rem 0;
+  }
+}
+  
+  
+  /* Laptop Devices */
+  @media (min-width: 1024px) and (max-width: 1365px) {
+    .content-box{padding: 1.3rem 2%;}
+    .box1 .box2 h1{font-size: 1rem;}
+    .box1 p{font-size: 1.15rem;
+        text-align: justify;
+    }
+    .box2 ul li{
+        font-size: 1rem;
+        display: list-item;
+        list-style: none;
+        padding-bottom: 0.1rem;
+    }
+
+    .box2 a{
+        font-size: 1.15rem;
+    }
+  }
+  
+  /* Desktop Devices */
+  @media (min-width: 1366px) {
+    
+  }
+/* footer */
+
+@media(max-width: 600px) {
+
+   .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height:4rem;
+    bottom: 0;
+    position: fixed;
+   }
+   
+   .footer-container p{
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+   }
+   .footer-container a{
+    font-size: 1rem;
+    margin: 0 1rem;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height:4rem;
+        bottom: 0;
+        position: fixed;
+       }
+
+       .footer-container p{
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+       }  
+}
+
+@media (min-width: 768px) and (max-width: 1093px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height:4rem;
+        bottom: 0;
+        position: fixed;
+       }
+
+       .footer-container p{
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+       }
+}
+ 
+

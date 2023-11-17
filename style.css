@@ -1,0 +1,258 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3d4144;
+    height: fit-content;
+}
+
+.pageheading{
+    font-family: BourtonLineBold;
+    color: white;
+    font-size: 2rem;  
+}
+/* nabar */
+
+.logo img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 1.3rem 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    z-index: 100;
+    top: 0;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+}
+
+.navbar a{
+   font-family: BourtonLine;
+   font-size: 1.15rem;
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 2.5rem; 
+}
+
+.navbar a:hover {
+    color: yellowgreen;
+  }
+
+#check{
+    display: none;
+}
+
+.icons{
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+    right: 5%;
+}
+
+/* slide show */
+.slider{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0 0 0;
+    position: relative;
+    z-index: -3;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*content content */
+.content-box{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 24%;
+    padding-bottom: 0.2rem;
+  
+}
+
+
+.box1 h1, .box2 h1{
+ font-family: BourtonLine;
+ color:white;
+ font-size: 1.5rem;
+ padding-bottom: 0.3rem;
+}
+
+.box1 p{
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-family: BourtonLine;
+    text-align: justify;
+}
+
+.box1 {
+    margin-bottom: 0.5rem;
+
+}
+
+.box2{
+    margin-bottom: 0.7rem;
+}
+
+.box2 ul li{
+ font-family: BourtonLine;
+ display: inline-block;
+ padding-right: 1rem;
+}
+
+.gallery-links a{
+    color: white;
+    font-size: 1.15rem;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.gallery-links .fa-solid{
+    color: rgb(117, 117, 202);
+}
+
+.gallery-links  a:hover {
+    color: peru;
+}
+
+
+/* footer */
+.footer{
+    margin-top: auto;
+   
+    
+}
+
+.footer-container{
+    font-family: BourtonLine;
+    color: yellow;
+    padding: 1.3rem 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);    
+}
+
+.social-icons a {
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem; 
+}
+
+.social-icons a:hover {
+    color: yellowgreen;
+}
+
+/* mood boards page */
+
+.page-header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    z-index: 100;
+    top: 0;
+}
+
+.page-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+}
+
+.page-header a{
+   font-size: 1.5rem;
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 2.5rem; 
+   padding-top: 0.8rem;
+}
+
+.page-header  a:hover {
+    color: yellowgreen;
+}
+.img-container{
+    padding-top: 5rem;
+    padding-left: 12rem ;
+    padding-right: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 100%;
+    height: auto;
+    padding: 0.7rem 0;
+}
+
+/* illustrations page */
+.gallery-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9rem 4%;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3rem ;
+}
+
+.gallery-container img{
+    width: 100%;
+}
+
+.img-about img{
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+}
