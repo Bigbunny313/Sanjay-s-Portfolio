@@ -10,6 +10,13 @@ body{
     height: fit-content;
 }
 
+@font-face {
+    font-family: BourtonLine;
+    src: url(fonts/BourtonLine.ttf);
+    src: url(fonts/BourtonLineBold.ttf);
+    src: url(fonts/BourtonLineMedium.ttf);
+}
+
 .pageheading{
     font-family: BourtonLineBold;
     color: white;
